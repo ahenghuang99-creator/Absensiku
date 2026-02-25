@@ -862,8 +862,7 @@ function renderAttendanceData(data) {
                 <td>${(currentPage - 1) * rowsPerPage + index + 1}</td>
                 <td><strong>${item.username}</strong></td>
                 <td>${item.tanggal}</td>
-                <td>${item.jamMasuk}</td>
-                <td>${item.jamPulang}</td>
+                <td>${item.waktu_absensi}</td>
                 <td><span class="status ${statusClass}">${item.status.toUpperCase()}</span></td>
             </tr>
         `;

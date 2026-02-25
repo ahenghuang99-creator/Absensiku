@@ -13,8 +13,7 @@ class AbsensiExport implements FromCollection, WithHeadings
         return Absensi::select(
             'username',
             'tanggal',
-            'jam_masuk',
-            'jam_pulang',
+            'waktu_absensi',
             'status_absensi'
         )->get();
     }
@@ -24,9 +23,8 @@ class AbsensiExport implements FromCollection, WithHeadings
         return [
             'username',
             'Tanggal',
-            'Jam Masuk',
-            'Jam Pulang',
-            'status_absensi'
+            'Waktu Absensi',
+            'Status Absensi'
         ];
     }
 }

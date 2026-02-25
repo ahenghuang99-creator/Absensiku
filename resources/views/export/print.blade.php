@@ -62,8 +62,7 @@
             <th>no</th>
             <th>username</th>
             <th>tanggal</th>
-            <th>jam masuk</th>
-            <th>jam pulang</th>
+            <th>waktu absensi</th>
             <th>status absensi</th>
         </tr>
     </thead>
